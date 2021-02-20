@@ -77,7 +77,7 @@ const Password = props => {
             backgroundColor: "green ",
             titleColor: "white",
             timeout: 5000,
-            message: "A message has been sent to your mail",
+            message: "Password Reset Successful",
             onClosed: setResetPasswordSent(false)
           })
         : passwordResetFail.length > 1 && resetPasswordSent === true
